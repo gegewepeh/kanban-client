@@ -1,0 +1,38 @@
+{
+  "name": "kanban-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "clear-build-cache": "rm -rf .cache/ dist/",
+    "dev": "parcel src/index.html",
+    "build": "cross-env NODE_ENV=production parcel build index.html --public-url ./",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gegewepeh/kanban-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gegewepeh/kanban-client/issues"
+  },
+  "homepage": "https://github.com/gegewepeh/kanban-client#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "sweetalert2": "^10.13.0",
+    "vue": "^2.6.12",
+    "vue-google-signin-button-directive": "^1.0.3",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "cross-env": "^7.0.3",
+    "cssnano": "^4.1.10",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

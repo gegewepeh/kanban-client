@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+.custom-card {
+  background-color: white;
+}
+
+.test-border {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.bg-main {
+  background-color: rgb(255, 235, 235);
+  height: 100%;
+}
+
+.custom-move-button {
+  height: 21px;
+}
+
+.error {
+  color: red;
+}
+
+.bg-image {
+  color: white;
+  background-image: url("./background.jpg");
+  height: 100%;
+}
+
+.black-text {
+  color: black;
+}

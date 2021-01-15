@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id" : 1,
+      "email": "wow@gmail.com",
+      "password": "qweqwe"
+    },
+    {
+      "id" : 2,
+      "email": "wow2@gmail.com",
+      "password": "qweqwe"
+    },
+    { 
+      "id" : 3,
+      "email": "wow3@gmail.com",
+      "password": "qweqwe"
+    }
+  ],
+  "kanbans": [
+    {
+      "id" : 1,
+      "title": "ngoding",
+      "description": "qweqwe",
+      "category": "todo"
+    },
+    {
+      "id" : 2,
+      "title": "livecode",
+      "description": "qweqwe",
+      "category": "backlog"
+    },
+    { 
+      "id" : 3,
+      "title": "simulasi",
+      "description": "qweqwe",
+      "category": "backlog"
+    },
+    {
+      "id" : 4,
+      "title": "ngoding 2",
+      "description": "qweqwe",
+      "category": "backlog"
+    },
+    {
+      "id" : 5,
+      "title": "livecode 2",
+      "description": "qweqwe",
+      "category": "backlog"
+    },
+    { 
+      "id" : 6,
+      "title": "simulasi 2",
+      "description": "qweqwe",
+      "category": "backlog"
+    },
+    {
+      "id" : 7,
+      "title": "livecode 2 (complete)",
+      "description": "qweqwe",
+      "category": "complete"
+    },
+    { 
+      "id" : 8,
+      "title": "simulasi 2",
+      "description": "qweqwe",
+      "category": "in-progress"
+    },
+    {
+      "id" : 9,
+      "title": "livecode doang (complete)",
+      "description": "qweqwe",
+      "category": "complete"
+    },
+    { 
+      "id" : 10,
+      "title": "simulasi 2",
+      "description": "qweqwe",
+      "category": "in-progress"
+    }
+  ]
+}
